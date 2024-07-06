@@ -103,7 +103,7 @@ const projects = [
   {
     id: 2,
     name: 'Digital Solution',
-    role: 'Analista Web, IT Management',
+    role: 'Director de Operaciones (COO)',
     technologies: ['Wordpress', 'Hostinger','CSS'],
     image: 'https://scontent.fbog11-1.fna.fbcdn.net/v/t39.30808-6/447667413_2315710058599551_5519951163004201749_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHI0mBelZfYBTiqq7Hk9EPD6y9qb-bjsqfrL2pv5uOypwT-J03w_hg7yl6qoTI97ECOMeDi4Y47jNyekOvnuCd8&_nc_ohc=PJrNPctYMiMQ7kNvgH8ETHl&_nc_ht=scontent.fbog11-1.fna&oh=00_AYBSrrq0AfENkFcLogbusnGNOOL7KnHMa38yFu_UtckADQ&oe=668D6577',
     link: 'https://solucion-digital.com/',

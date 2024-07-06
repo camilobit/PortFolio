@@ -19,12 +19,15 @@ const Navbar = () => {
     <header className="fixed inset-x-0 top-0 z-10 bg-slate-100 dark:bg-[#0a192f]">
       <nav aria-label="Global" className="flex items-center justify-between p-3 lg:px-8">
         <div className="flex lg:flex-1">
-          <RouterLink to="/" className="-m-1.5 p-1.5">
+          <ScrollLink 
+          smooth={true}
+          duration={1000}
+          to="inicio" className="-m-1.5 p-1.5 cursor-pointer">
             <span className="sr-only">Your Company</span>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="white" className="size-10">
               <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
             </svg>
-          </RouterLink>
+          </ScrollLink>
         </div>
         <div className="flex lg:hidden">
           <button
@@ -64,12 +67,15 @@ const Navbar = () => {
         <div className="fixed inset-0 z-50" />
         <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <RouterLink to="/" className="-m-1.5 p-1.5">
+            <ScrollLink 
+          smooth={true}
+          duration={1000}
+          to="inicio" className="-m-1.5 p-1.5 cursor-pointer">
               <span className="sr-only">Your Company</span>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
               </svg>
-            </RouterLink>
+            </ScrollLink>
             <button
               type="button"
               onClick={() => setMobileMenuOpen(false)}

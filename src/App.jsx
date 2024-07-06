@@ -16,15 +16,13 @@ function App() {
     <Router>
       <div className='App'>
         <Navbar />
+        <AboutMe/>
         <SocialMedia />
         <Element name="inicio">
           <Inicio />
         </Element>
         <Element name="skills">
           <Skills />
-        </Element>
-        <Element name="aboutMe">
-          <AboutMe />
         </Element>
         <Element name="projects">
           <Projects />
