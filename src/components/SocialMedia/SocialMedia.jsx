@@ -7,7 +7,7 @@ const ContactButtons = () => {
     };
 
     return (
-        <div className='hidden md:flex fixed flex-col bottom-[150px] left-[0.5rem]'>
+        <div className=' md:flex fixed flex-col bottom-[150px] left-[0.5rem]'>
             <ul className="animate__bounce">
                 <li className='w-[100px] h-[50px] flex justify-between items-center animate__animated animate__slideInLeft'>
                     <a className='flex justify-between items-center w-full text-[#f9b82c] dark:text-white duration-300' href='https://www.linkedin.com/in/camilo-acevedo/' target='_blank' rel="noreferrer"> 
