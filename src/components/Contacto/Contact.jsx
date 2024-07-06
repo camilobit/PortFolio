@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa';
 import emailjs from 'emailjs-com';
 
 const Contact = () => {
@@ -28,7 +27,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="max-w-3xl mx-auto p-6 bg-white shadow-md rounded-lg mt-10">
+    <div className="max-w-3xl mx-auto p-5 bg-white shadow-md rounded-lg mt-10 m-2">
       <h2 className="text-2xl font-bold text-center text-gray-900 mb-6">Conecta Conmigo</h2>
       <form className="space-y-4" onSubmit={handleSubmit}>
         <div>
