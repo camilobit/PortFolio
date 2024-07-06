@@ -48,7 +48,7 @@ const Navbar = () => {
               {item.name}
             </ScrollLink>
           ))}
-          <a href="/aboutme"
+          <a href="/"
           className="text-sm font-semibold leading-6 text-white cursor-pointer"
           >
             Sobre mi
@@ -94,7 +94,7 @@ const Navbar = () => {
                     {item.name}
                   </ScrollLink>
                 ))}
-                <a href="/aboutme"
+                <a href="/"
           className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 cursor-pointer"
           >
             Sobre mi
