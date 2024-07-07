@@ -71,7 +71,7 @@ const Skills = () => {
           </div>
           <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={Wordpress} alt="Wordpress icon" />
-            <p className='mt-4'>Wordpress</p>
+            <p className='mt-4'>WordPress</p>
           </div>
         </div>
       </div>
