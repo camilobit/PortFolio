@@ -1,5 +1,3 @@
-
-  
 //   const Proyects = () => {
 //     const people = [
 //         {
@@ -97,7 +95,7 @@ const projects = [
     name: 'La Fama Online',
     role: 'Desarrollador, y coordinador de operaciones',
     technologies: ['Hostinger', 'Wordpress'],
-    image: 'https://scontent.fbog11-1.fna.fbcdn.net/v/t39.30808-1/448734119_122106742724359935_8877981162382265261_n.jpg?stp=dst-jpg_p200x200&_nc_cat=103&ccb=1-7&_nc_sid=0ecb9b&_nc_eui2=AeE0qKtwW2ZI-SRGRk6sn3bDVj-L8qTztw1WP4vypPO3DZXD4wCjHCuHB93VrPTzU2JQ2ogwTLqoyr-5QrWkP0xr&_nc_ohc=hlxfGU0tHzIQ7kNvgF9bv9Q&_nc_ht=scontent.fbog11-1.fna&oh=00_AYB6STD38QDDk1zqAXOSZvHOPAHxK2jfSe1t3FdFoSZSlQ&oe=668EC917',
+    image: '../../../la fama logo.jpg',
     link: 'https://lafamacolombia.com/',
   },
   {
@@ -105,8 +103,8 @@ const projects = [
     name: 'Digital Solution',
     role: 'Director de Operaciones (COO)',
     technologies: ['Wordpress', 'Hostinger','CSS'],
-    image: 'https://scontent.fbog11-1.fna.fbcdn.net/v/t39.30808-6/447667413_2315710058599551_5519951163004201749_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHI0mBelZfYBTiqq7Hk9EPD6y9qb-bjsqfrL2pv5uOypwT-J03w_hg7yl6qoTI97ECOMeDi4Y47jNyekOvnuCd8&_nc_ohc=PJrNPctYMiMQ7kNvgH8ETHl&_nc_ht=scontent.fbog11-1.fna&oh=00_AYBSrrq0AfENkFcLogbusnGNOOL7KnHMa38yFu_UtckADQ&oe=668D6577',
-    link: 'https://solucion-digital.com/',
+    image: '../../../logo digital solution.jpg',
+    link: 'https://solucion-digital.com/'
   },
   {
     id: 3,
