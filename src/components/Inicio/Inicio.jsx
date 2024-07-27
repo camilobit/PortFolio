@@ -19,13 +19,13 @@ export default function Inicio() {
         </div>
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-5">
           <div className="hidden sm:mb-4 sm:flex sm:justify-center">
-            <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-white ring-1 ring-[#ccd6f6]-900/10 hover:ring-gray-900/40">
+            {/* <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-white ring-1 ring-[#ccd6f6]-900/10 hover:ring-gray-900/40">
               Aquí podrás conocerme mejor.{' '}
               <a href="https://drive.google.com/file/d/1vwo73aUeN3Hl9Y-1jJv2LANYvBo8iv3D/view?usp=sharing" className="font-semibold text-[#ff80b5]" target='_blank' rel="noreferrer">
                 <span aria-hidden="true" className="absolute inset-0" />
                 Mira mi CV <span aria-hidden="true">&rarr;</span>
               </a>
-            </div>
+            </div> */}
           </div>
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-[#ccd6f6] sm:text-6xl">

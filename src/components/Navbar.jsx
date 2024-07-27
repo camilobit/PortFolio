@@ -58,9 +58,9 @@ const Navbar = () => {
           </a>
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <RouterLink to="https://drive.google.com/file/d/1vwo73aUeN3Hl9Y-1jJv2LANYvBo8iv3D/view?usp=sharing" className="text-sm font-semibold leading-6 text-white" target='_blank' rel="noreferrer">
+          {/* <RouterLink to="https://drive.google.com/file/d/1vwo73aUeN3Hl9Y-1jJv2LANYvBo8iv3D/view?usp=sharing" className="text-sm font-semibold leading-6 text-white" target='_blank' rel="noreferrer">
             Mira mi CV <span aria-hidden="true">&rarr;</span>
-          </RouterLink>
+          </RouterLink> */}
         </div>
       </nav>
       <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
@@ -108,12 +108,12 @@ const Navbar = () => {
           </a>
               </div>
               <div className="py-6">
-                <RouterLink
+                {/* <RouterLink
                   to="https://drive.google.com/file/d/1vwo73aUeN3Hl9Y-1jJv2LANYvBo8iv3D/view?usp=sharing"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" target='_blank' rel="noreferrer"
                 >
                   Mira mi CV
-                </RouterLink>
+                </RouterLink> */}
               </div>
             </div>
           </div>
