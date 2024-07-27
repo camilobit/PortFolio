@@ -1,93 +1,6 @@
-//   const Proyects = () => {
-//     const people = [
-//         {
-//           name: 'La Fama Online',
-//           email: 'Roll: Desarrollador principal',
-//           role: 'Desarrollador principal',
-//           imageUrl:
-//             'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-//           lastSeen: 'Wordpress',
-//           lastSeenDateTime: '2023-01-23T13:23Z',
-//         },
-//         {
-//           name: 'Digital Solution',
-//           email: 'Roll: Analista y Director de Operaciones comerciales',
-//           role: 'Analista y Director de Operaciones comerciales',
-//           imageUrl:
-//             'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-//           lastSeen: '3h ago',
-//           lastSeenDateTime: '2023-01-23T13:23Z',
-//         },
-//         {
-//           name: 'Dries Vincent',
-//           email: 'dries.vincent@example.com',
-//           role: 'Business Relations',
-//           imageUrl:
-//             'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-//           lastSeen: null,
-//         },
-//         {
-//           name: 'Lindsay Walton',
-//           email: 'lindsay.walton@example.com',
-//           role: 'Front-end Developer',
-//           imageUrl:
-//             'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-//           lastSeen: '3h ago',
-//           lastSeenDateTime: '2023-01-23T13:23Z',
-//         },
-//         {
-//           name: 'Courtney Henry',
-//           email: 'courtney.henry@example.com',
-//           role: 'Designer',
-//           imageUrl:
-//             'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-//           lastSeen: '3h ago',
-//           lastSeenDateTime: '2023-01-23T13:23Z',
-//         },
-//         {
-//           name: 'Tom Cook',
-//           email: 'tom.cook@example.com',
-//           role: 'Director of Product',
-//           imageUrl:
-//             'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-//           lastSeen: null,
-//         },
-//       ]
-      
-//     return (
-//         <ul role="list" className="divide-y divide-gray-100">
-//         {people.map((person) => (
-//           <li key={person.email} className="flex justify-between gap-x-6 py-5">
-//             <div className="flex min-w-0 gap-x-4">
-//               <img alt="" src={person.imageUrl} className="h-12 w-12 flex-none rounded-full bg-gray-50" />
-//               <div className="min-w-0 flex-auto">
-//                 <p className="text-sm font-semibold leading-6 text-gray-900">{person.name}</p>
-//                 <p className="mt-1 truncate text-xs leading-5 text-gray-500">{person.email}</p>
-//               </div>
-//             </div>
-//             <div className="hidden shrink-0 sm:flex sm:flex-col sm:items-end">
-//               <p className="text-sm leading-6 text-gray-900">{person.role}</p>
-//               {person.lastSeen ? (
-//                 <p className="mt-1 text-xs leading-5 text-gray-500">
-//                   Last seen <time dateTime={person.lastSeenDateTime}>{person.lastSeen}</time>
-//                 </p>
-//               ) : (
-//                 <div className="mt-1 flex items-center gap-x-1.5">
-//                   <div className="flex-none rounded-full bg-emerald-500/20 p-1">
-//                     <div className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
-//                   </div>
-//                   <p className="text-xs leading-5 text-gray-500">Online</p>
-//                 </div>
-//               )}
-//             </div>
-//           </li>
-//         ))}
-//       </ul>
-//     )
-//   }
-  
-// export default Proyects;
-
+// import { useState } from "react";
+// import ModalFama from "../Modal/ModalFama";
+// importaciones para que funcione el modal 
 
 const projects = [
   {
@@ -141,6 +54,10 @@ const projects = [
 ];
 
 const Projects = () => {
+
+  //const [showModal, setShowModal] = useState(false);
+  // este codigo ayuda a que el modal tenga props y lo setea en false 
+
   return (
     <div className="w-full bg-[#16191D]">
     <div className="max-w-4xl mx-auto py-12">
@@ -174,15 +91,32 @@ const Projects = () => {
           <p className='text-4xl font-bold inline border-b-4 border-[#ff80b5] text-white' data-aos="fade-in">Estos son mis proyectos más destacados</p>
           <p className='py-4 text-white font-medium dark:font-normal mt-8' data-aos="fade-in">{"//"} Aquí encontrarás una breve descripción de los proyectos en los que he participado. Podrás ver el nombre del proyecto, una imagen representativa y algunas de las tecnologías utilizadas en cada uno. Para aquellos proyectos que ya están en producción, si haces clic en cada uno, serás dirigido a la página correspondiente para que puedas ver los resultados de cerca. </p>
         </div>
+
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-14">
         {projects.map((project) => (
           <a
             key={project.id}
-            href={project.link}
             target="_blank"
             rel="noopener noreferrer"
+            href={project.link}
             className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300"
           >
+            {/* <div>    
+
+            Modal para ver ventanas emergentes de los detalles de los proyectos, para que funcone debe cambiar la etiqueta a por un div y poner el link que redirija a cada proyecto en su modal correspondiente.
+
+            <button className="bg-pink-500 text-white active:bg-pink-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+              type="button" onClick={() => setShowModal(true)}>
+              
+              Open Modal
+            </button>
+            {showModal && (
+              <ModalFama showModal={showModal} setShowModal={setShowModal} />
+            )}
+            </div> */}
+
+
+
             <img src={project.image} alt={project.name} className="w-full h-48 object-cover" />
             <div className="p-4">
               <h3 className="text-xl font-semibold text-gray-900 mb-2">{project.name}</h3>
