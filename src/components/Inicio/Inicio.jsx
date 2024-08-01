@@ -41,7 +41,7 @@ export default function Inicio() {
               >
                 Sobre mi
               </a>
-              <a href="https://drive.google.com/file/d/1vwo73aUeN3Hl9Y-1jJv2LANYvBo8iv3D/view?usp=sharing" className="text-sm font-semibold leading-6 text-[#ff80b5]" target='_blank' rel="noreferrer">
+              <a href="https://drive.google.com/file/d/1Pqm--DhPfRLYLqprUxRC1OQwsIUk7H5D/view?usp=sharing" className="text-sm font-semibold leading-6 text-[#ff80b5]" target='_blank' rel="noreferrer">
               Mira mi CV <span aria-hidden="true">→</span>
               </a>
             </div>

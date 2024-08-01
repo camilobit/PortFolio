@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub, FaEnvelope, FaFilePdf } from 'react-icons/fa';
 const ContactButtons = () => {
     // Función para obtener el enlace al PDF
     const getLink = () => {
-        return 'https://drive.google.com/file/d/1vwo73aUeN3Hl9Y-1jJv2LANYvBo8iv3D/view?usp=sharing';
+        return 'https://drive.google.com/file/d/1Pqm--DhPfRLYLqprUxRC1OQwsIUk7H5D/view?usp=sharing';
     };
 
     return (
