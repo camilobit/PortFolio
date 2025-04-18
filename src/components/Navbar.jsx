@@ -109,7 +109,7 @@ const Navbar = () => {
               </div>
               <div className="py-6">
                 <RouterLink
-                  to="https://drive.google.com/file/d/1Pqm--DhPfRLYLqprUxRC1OQwsIUk7H5D/view?usp=sharing"
+                  to="https://drive.google.com/file/d/1wDv-MPHYC8Vt0CRwSVDrVRHfcQF0WmI9/view?usp=drive_link"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" target='_blank' rel="noreferrer"
                 >
                   Mira mi CV
