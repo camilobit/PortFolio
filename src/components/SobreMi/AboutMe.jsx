@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { Dialog, DialogBackdrop, DialogPanel, DialogTitle, TransitionChild } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
 import { FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa'
+import camiloFoto from '../../assets/perfilImage.jpeg'
 
 export default function AboutMe() {
   const [open, setOpen] = useState(true)
@@ -42,7 +43,7 @@ export default function AboutMe() {
                 <div className="relative mt-6 flex-1 px-4 sm:px-6 flex flex-col items-center">
                   {/* Imagen de perfil */}
                   <img
-                    src="../../../public/1707696211930 (1).jpeg"
+                    src={camiloFoto}
                     alt="Camilo Acevedo"
                     className="w-32 h-32 rounded-full border-4 border-gray-300 shadow-lg mb-6"
                   />
