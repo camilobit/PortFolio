@@ -6,7 +6,7 @@ const projects = [
   {
     id: 1,
     name: 'La Fama Online',
-    role: 'Desarrollador, y coordinador de operaciones',
+    role: 'Desarrollador Junior y gestor operativo',
     technologies: ['Hostinger', 'Wordpress'],
     image: '../../../la fama logo.jpg',
     link: 'https://lafamacolombia.com/',
@@ -14,7 +14,7 @@ const projects = [
   {
     id: 2,
     name: 'Digital Solution',
-    role: 'Director de Operaciones (COO)',
+    role: 'Desarrollador Web y Asesor Comercial',
     technologies: ['Wordpress', 'Hostinger','CSS'],
     image: '../../../logo digital solution.jpg',
     link: 'https://solucion-digital.com/'
@@ -43,14 +43,14 @@ const projects = [
     image: 'https://www.adslzone.net/app/uploads-adslzone.net/2023/03/chatpdf.jpg',
     link: '#',
   },
-  {
-    id: 6,
-    name: 'App web para cobro de parking, centro comercial VIVA Villavicencio',
-    role: 'Full Stack Developer, Aún en desarrollo',
-    technologies: ['Node.js', 'React.js', 'Wompi'],
-    image: 'https://www.noticieromacarena.com/wp-content/uploads/2023/03/viva.jpg',
-    link: '#',
-  }
+  // {
+  //   id: 6,
+  //   name: 'App web para cobro de parking, centro comercial VIVA Villavicencio',
+  //   role: 'Full Stack Developer, Aún en desarrollo',
+  //   technologies: ['Node.js', 'React.js', 'Wompi'],
+  //   image: 'https://www.noticieromacarena.com/wp-content/uploads/2023/03/viva.jpg',
+  //   link: '#',
+  // }
 ];
 
 const Projects = () => {
