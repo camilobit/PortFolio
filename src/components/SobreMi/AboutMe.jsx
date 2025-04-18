@@ -42,7 +42,7 @@ export default function AboutMe() {
                 <div className="relative mt-6 flex-1 px-4 sm:px-6 flex flex-col items-center">
                   {/* Imagen de perfil */}
                   <img
-                    src="https://media.licdn.com/dms/image/D4E03AQF0BA_9QA4k6g/profile-displayphoto-shrink_800_800/0/1707696211930?e=1725494400&v=beta&t=YL9ors9VcEdIfR69dMISGD9ucfK-LqU7sN6uZ1Nu4Ug"
+                    src="../../../public/1707696211930 (1).jpeg"
                     alt="Camilo Acevedo"
                     className="w-32 h-32 rounded-full border-4 border-gray-300 shadow-lg mb-6"
                   />
