@@ -107,7 +107,7 @@ import { useForm, ValidationError } from '@formspree/react';
 import { useState } from 'react';
 
 const Contact = () => {
-  const [state, handleSubmit] = useForm("TU_FORM_ID"); // ← pon aquí tu Form ID
+  const [state, handleSubmit] = useForm("https://formspree.io/f/mdkerjja");
   const [formData, setFormData] = useState({
     name: '',
     message: '',
