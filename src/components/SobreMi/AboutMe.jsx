@@ -50,10 +50,12 @@ export default function AboutMe() {
                   {/* Texto de presentación */}
                   <div className="text-center max-w-2xl">
                     <p className="text-gray-900 text-lg mb-4">
-                      ¡Hola! Soy un desarrollador con dos años de experiencia en el mundo de la programación. Mis primeros pasos fueron con HTML y CSS, y rápidamente avancé a tecnologías como Node.js y React.js. Actualmente, estoy enfocándome en aprender y aplicar inteligencia artificial en mis proyectos personales tambien me encuentro realizando una certificación como Full Stack Developer con IBM.
+                    ¡Hola! Soy un desarrollador con dos años de experiencia en el mundo de la programación. Comencé con HTML y CSS, y rápidamente avancé hacia tecnologías como Node.js y React.js. Actualmente, me estoy enfocando en aprender y aplicar inteligencia artificial en mis proyectos personales, además de estar realizando una certificación como Full Stack Developer con IBM.
                     </p>
                     <p className="text-gray-900 text-lg mb-4">
-                      A lo largo de mi carrera, he tenido la oportunidad de desarrollar proyectos como emprendedor para clientes que necesitan soluciones específicas. Aunque he mantenido roles en otras industrias, ahora he decidido dedicarme por completo a esta apasionante industria tecnológica. Tengo 28 años, me encanta el ejercicio y cocinar, y mi próxima meta es mejorar mi nivel de inglés a B2.
+                    A lo largo de mi trayectoria, he tenido la oportunidad de desarrollar proyectos como emprendedor, creando soluciones específicas para distintos clientes. Aunque en el pasado he desempeñado roles en otras industrias, hoy he decidido dedicarme por completo a esta apasionante industria tecnológica.
+                    <br></br>
+                    Tengo 28 años, me encanta hacer ejercicio y cocinar, y una de mis próximas metas es mejorar mi nivel de inglés hasta alcanzar un nivel B2.
                     </p>
                   </div>
                   {/* Iconos de redes sociales */}
