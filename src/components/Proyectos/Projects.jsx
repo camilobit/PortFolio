@@ -31,7 +31,7 @@ const projects = [
     id: 4,
     name: 'Proyecto Final Henry',
     role: 'Full Stack Developer',
-    technologies: ['Node.js', 'Express.js', 'React,js'],
+    technologies: ['Node.js','Express.js','React,js'],
     image: 'https://media.licdn.com/dms/image/D4E22AQGRrcuuS2WA7Q/feedshare-shrink_800/0/1690300140982?e=1723075200&v=beta&t=rksqiorq_jVe01eSvEVEzCVyT_wMvDeHN9AC1wtMgaE',
     link: 'https://pf-e-latam.netlify.app/',
   },
@@ -39,7 +39,7 @@ const projects = [
     id: 5,
     name: 'Chat AI con mis archivos PDF',
     role: 'Full Stack Developer, Aún en desarrollo',
-    technologies: ['Node.js', 'React.js', 'Langchaing'],
+    technologies: ['Node.js','React.js','Langchaing'],
     image: 'https://www.adslzone.net/app/uploads-adslzone.net/2023/03/chatpdf.jpg',
     link: '#',
   },
@@ -121,7 +121,7 @@ const Projects = () => {
             <div className="p-4">
               <h3 className="text-xl font-semibold text-gray-900 mb-2">{project.name}</h3>
               <p className="text-gray-700 mb-2">{project.role}</p>
-              <div className="flex space-x-2">
+              <div className="flex space-x-1">
                 {project.technologies.map((tech, index) => (
                   <span
                     key={index}
