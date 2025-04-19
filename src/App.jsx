@@ -8,7 +8,7 @@ import Navbar from './components/Navbar';
 import Projects from './components/Proyectos/Projects';
 import AboutMe from './components/SobreMi/AboutMe';
 import Inicio from './components/Inicio/Inicio';
-//import Contact from './components/Contacto/Contact';
+import Contact from './components/Contacto/Contact';
 import Skills from './components/Proyectos/Skills';
 import SocialMedia from './components/SocialMedia/SocialMedia';
 import Footer from './components/Footer/Footer';
@@ -30,7 +30,7 @@ function App() {
           <Projects />
         </Element>
         <Element name="contact">
-          {/* <Contact /> */}
+          <Contact />
         </Element>
         <Footer />
         <SpeedInsights />
