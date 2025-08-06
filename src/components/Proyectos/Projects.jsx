@@ -3,14 +3,14 @@
 // importaciones para que funcione el modal 
 
 const projects = [
-  {
-    id: 1,
-    name: 'La Fama Online',
-    role: 'Desarrollador Junior y gestor operativo',
-    technologies: ['Hostinger', 'Wordpress'],
-    image: '../../../la fama logo.jpg',
-    link: 'https://lafamacolombia.com/',
-  },
+  // {
+  //   id: 1,
+  //   name: 'La Fama Online',
+  //   role: 'Desarrollador Junior y gestor operativo',
+  //   technologies: ['Hostinger', 'Wordpress'],
+  //   image: '../../../la fama logo.jpg',
+  //   link: 'https://lafamacolombia.com/',
+  // },
   {
     id: 2,
     name: 'Digital Solution',
